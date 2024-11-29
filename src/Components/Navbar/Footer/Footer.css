@@ -1,0 +1,23 @@
+/* Footer container */
+.footer {
+    background-color: #184e84;  /* Matches navbar color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style for links inside the footer */
+  .footer a {
+    color: #51e2b1;  /* Light teal for footer links */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Change link color on hover */
+  .footer a:hover {
+    color: #f2f2f2;  /* Light color on hover */
+  }
+  

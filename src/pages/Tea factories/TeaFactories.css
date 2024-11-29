@@ -1,0 +1,95 @@
+.tea-factories-container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Border for the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+  /* Heading styles */
+  .tea-factories-container h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  /* Factory List Styles */
+  .factory-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  /* Factory Item Styles */
+  .factory-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add padding for items */
+    border-bottom: 1px solid #ccc; /* Add a bottom border for separation */
+  }
+  
+  /* Factory Count Styles */
+  .factory-count {
+    font-weight: bold; /* Make the count bold */
+    color: #184e84; /* Color for the count */
+    margin-right: 10px; /* Space between count and image */
+  }
+  
+  /* Factory Image Styles */
+  .factory-image {
+    width: 80px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+    margin-right: 10px; /* Space between image and name */
+  }
+  
+  /* Factory Name Styles */
+  .factory-name {
+    font-size: 1.2em; /* Increase font size for factory names */
+  }
+  
+  /* Last Item Bottom Border Removal */
+  .factory-item:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+  }
+  
+  * Container for the table */
+.table-container {
+  margin: 20px auto;
+  max-width: 800px;  /* Adjust to fit your design */
+  border-collapse: collapse;
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Remove gaps between table cells */
+  table-layout: fixed;
+}
+
+/* Table cell styles */
+td {
+  padding: 15px;
+  border: 1px solid #ddd;  /* Add border between table cells */
+  vertical-align: top;
+  text-align: center;  /* Center content inside table cells */
+}
+
+/* Image in the table */
+.table-image {
+  width: 100%;  /* Full width for the image */
+  max-width: 150px;  /* Control the maximum width of the image */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+/* Description paragraph */
+td p {
+  margin: 0;  /* Remove margin around paragraph */
+  font-size: 16px;
+  text-align: left;  /* Align text to the left for descriptions */
+}
+.fregister{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+/* Navbar container */
+.topnav {
+    background-color: #184e84;  /* Dark blue background */
+    overflow: hidden;
+    width: 100%;
+    padding: 0 20px;  /* Adds some padding to the left and right of the nav */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;  /* Light color for the text */
+    text-align: center;
+    padding: 14px 20px;  /* Spacing inside each link */
+    text-decoration: none;  /* Removes underline from links */
+    font-size: 17px;
+    margin-left: 10px;
+    transition: color 0.3s ease;  /* Smooth transition for color changes */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: rgb(51, 208, 190);  /* Light teal color when hovered */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: white;  /* White color for active link */
+}
+
+/* Make the navbar responsive by stacking links when in smaller screens */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
